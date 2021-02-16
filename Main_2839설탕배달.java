@@ -10,6 +10,7 @@ public class Main_2839설탕배달 {//dfs
 		go(num,0);
 		System.out.println(min==Integer.MAX_VALUE?-1:min);
 	}
+	
 	private static void go(int size,int sum) {
 		if(size==0) {
 			min=Math.min(min, sum);
